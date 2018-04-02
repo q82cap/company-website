@@ -43,6 +43,11 @@ PARTNERS = [
      "desc":lazy_gettext("Blocklancer is buidiling a distributed autonomous job marketplace on the blockchain using Origin Protocol.")
     },
     {
+    "name":"pinprotocol",
+    "url":"https://www.pinprotocol.io/",
+     "desc":lazy_gettext("The decentralized reputation, incentive, and payments protocol for the global sharing economy, built on the blockchain.")
+    },
+    {
     "name":"antiq-mall",
     "url":"https://antiqmall-ico.io/",
      "desc":lazy_gettext("AntiqMall is building an antiques and art objects marketplace on the blockchain using Origin Protocol.")
