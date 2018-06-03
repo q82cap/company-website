@@ -1093,11 +1093,12 @@ footer .company-mission {
 
 .press-logo-wrapper {
   text-align: center;
+  width: 200px;
   margin: 20px auto 30px auto;
 }
 
 .press-logo-wrapper img {
-  height: 40px;
+  width: 100%;
 }
 
 .press-quote {
