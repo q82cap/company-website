@@ -1,3 +1,70 @@
+@font-face {
+  font-family: 'Px Grotesk';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafbb03b550001083273_PxGroteskLight-Italic.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/59baa8a02a8eaa000152fd24_PxGrotesk-LightIta.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Px Grotesk';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafb02047500012c0828_PxGroteskScreen-Regular.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafba9ac30000149a68d_PxGroteskRegular-Regular.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafb02047500012c0827_PxGroteskBold-Regular.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/59baa8a08b30c40001ae58e5_PxGrotesk-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Px Grotesk';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafb34e15300019a6c57_PxGroteskRegular-Italic.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/59baa8a030620e000122bb1f_PxGrotesk-RegularIta.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Px Grotesk';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafba9ac30000149a68c_PxGroteskBold-Italic.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/59baa8a0dea09c0001ac1fd9_PxGrotesk-BoldIta.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Px Grotesk';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafb8e3f0b00019915e3_PxGroteskLight-Regular.eot') format('embedded-opentype'), url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/59baa8a02a8eaa000152fd23_PxGrotesk-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pxgroteskscreen';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efafb02047500012c0828_PxGroteskScreen-Regular.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PF Din Mono';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efb638e3f0b0001991614_PFDinMono.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PF Din Mono';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efb6302047500012c0855_PFDinMono-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PF Din Mono';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/599efb638e3f0b0001991613_PFDinMono-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Px Grotesk';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/59baa8a02158b90001dd381e_PxGrotesk-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pxgrotesk screen';
+  src: url('https://uploads-ssl.webflow.com/599ef8d3a9ac30000149a49e/59baa8a0dea09c0001ac1fda_PxGrotesk-Screen.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   height: 100%;
   font-size: 16px;
@@ -9,7 +76,7 @@ body {
   height: 100%;
   font-size: 1.0rem;
   font-weight: 300;
-  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Px Grotesk', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 #rtl {
