@@ -249,7 +249,7 @@ nav {
 main.landing-page,
 main.team-page {
   position: relative;
-  background-color: #2e3f53;
+  background-color: #0a0ab9;
 }
 
 .background-wrapper {
@@ -591,7 +591,7 @@ main.team-page {
 }
 
 .dark-footer {
-  background-color: #2e3f53;
+  background-color: #0a0ab9;
   padding: 78px 0px 258px;
   min-height: 522px;
 }
@@ -820,7 +820,7 @@ footer .company-mission {
 }
 
 .partners-section .card-deck .partner-card.current {
-  background-color: #2e3f53;
+  background-color: #0a0ab9;
   border-radius: 10px;
   height: 188px;
   left: 0px;
@@ -831,7 +831,7 @@ footer .company-mission {
 }
 
 .partners-section .card-deck .partner-card[data-pos="0"] {
-  background-color: #2e3f53;
+  background-color: #0a0ab9;
   border-radius: 10px;
   height: 188px;
   left: 0px;
