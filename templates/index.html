@@ -324,7 +324,34 @@ innovations, and events that shape future business models and dominate investmen
       </div>
     </div>
   </section>
- 
+   <section class="middlemen-section">
+    <div class="container foreground-content">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h2>
+            {{ gettext("BEST PRACTICES AND PRINCIPLES") }}
+          </h2>
+          <p>
+            {{ gettext("Around a 24 per cent of hedge fund managers interviewed by BarclayHedge responded that they either currently invest or plan to invest in cryptocurrencies within the next six months. However, institutional investors are not buying the underlying product of all these instruments, which is the cryptocurrency itself. The reason is straightforward: there is a lack of infrastructure, regulation and best practices. We strive to develop a framework of best practices and principles in trading, security, custody, legal, and compliance that allow institutional investors participate in this emerging digital asset class.") }}
+          </p>
+          <div class="btn-container">
+            <a href="{{ url_for('whitepaper', lang_code=CURRENT_LANGUAGE) }}" role="button" class="btn btn-primary btn-min-size">
+              {{ gettext("Read the Whitepaper") }}
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="img-graphic">
+            <img src="/static/img/middlemen-graphic.png"
+              srcset="/static/img/middlemen-graphic@2x.png 2x,
+                /static/img/middlemen-graphic@3x.png 3x"
+              class="middlemen-graphic wow fadeInUp"
+              alt="middlemen">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="roadmap-section" id="roadmap">
     <div class="container-fluid">
       <div class="row">
