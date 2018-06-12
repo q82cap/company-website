@@ -17,13 +17,15 @@
    <section class="hero-section">
       <div class="container foreground-content">
         <div class="row">
-          <div class="col-12 col-md-9">
+          <div class="col-12 col-md-6">
             <h1>
               {{ gettext("AN INVESTMENT FIRM FOR THE SECOND MACHINE AGE") }}
             </h1>
             <p>
               {{ gettext("Q82 Capital uses a combination of artificial intelligence paired with fundamental knowledge, to provide our investors with exceptional returns trough the active management of digital assets portfolios.") }}
             </p>
+        <div class="row">
+          <div class="col-12 col-md-6">
             <div class="btn-container">
                   <a href="{{ url_for('product_brief', lang_code=CURRENT_LANGUAGE) }}" role="button" class="product-brief-btn btn btn-primary btn-min-size">
                     {{ gettext("Read Our Product Brief") }}
@@ -35,6 +37,8 @@
                     {{ gettext("Join Our Telegram") }}
                   </a>
                 </div>
+          </div>
+                  </div>
           </div>
           <div class="col-12 col-md-6">
           </div>
