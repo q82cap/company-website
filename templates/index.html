@@ -28,62 +28,7 @@
         </div>
       </div>
     </section>
-    <section class="platform-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-pane background-panes top-panes">
-            <div class="row row-pane">
-              <div class="col-8 col-pane">
-                <div class="left-upper-pane">
-                </div>
-              </div>
-              <div class="col-4 col-pane">
-                <div class="right-upper-pane">
-                </div>
-              </div>
-            </div>
-            <div class="row row-pane">
-              <div class="col-12 col-pane">
-                <div class="platform-bottom-pane">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container foreground-content">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="img-graphic">
-                  <img src="/static/img/platform-graphic.png"
-                    srcset="/static/img/platform-graphic@2x.png 2x,
-                    /static/img/platform-graphic@3x.png 3x"
-                    class="platform-graphic"
-                    role="presentation" />
-                </div>
-              </div>
-              <div class="col-12 col-md-6">
-                <h2>
-                  {{ gettext("The Origin platform") }}
-                </h2>
-                <p>
-                  {{ gettext("Q82 Capital uses a combination of artificial intelligence paired with fundamental knowledge, to provide our investors with exceptional returns trough the active management of digital assets portfolios. We invest with a long-term approach, risk mitigation perspective.") }}
-                </p>
-                <div class="btn-container">
-                  <a href="{{ url_for('product_brief', lang_code=CURRENT_LANGUAGE) }}" role="button" class="product-brief-btn btn btn-primary btn-min-size">
-                    {{ gettext("Read Our Prospectus") }}
-                  </a>
-                </div>
-                <div class="btn-container">
-                  <a href="{{ universal.TELEGRAM_URL }}" role="button" class="telegram-btn btn btn-outline-primary btn-min-size" target="_blank">
-                    <i class='fab fa-telegram-plane'></i>
-                    {{ gettext("Join Our Telegram") }}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
   </div>
   <section class="partners-section">
     <div class="container-fluid">
