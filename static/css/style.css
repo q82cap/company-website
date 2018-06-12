@@ -876,6 +876,7 @@ footer .company-mission {
 .discord-btn-container,
 .telegram-btn-container {
   margin: 10px 10px 10px 0 !important;
+  background-color: #ffffff;
 }
 
 .product-brief-btn {
