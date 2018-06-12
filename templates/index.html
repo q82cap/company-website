@@ -14,28 +14,24 @@
     </div>
     {% include 'navbar.html' %}
     {% endwith %}
-    <section class="hero-section">
+ <section class="hero-section">
       <div class="container foreground-content">
         <div class="row">
           <div class="col-12 col-md-6">
             <h1>
               {{ gettext("AN INVESTMENT FIRM FOR THE SECOND MACHINE AGE") }}
             </h1>
-             <p>
-                  {{ gettext("Q82 Capital uses a combination of artificial intelligence paired with fundamental knowledge, to provide our investors with exceptional returns trough the active management of digital assets portfolios. We invest with a long-term approach, risk mitigation perspective.") }}
-                </p>
-                                    <div class="btn-container">
-            <a href="{{ url_for('whitepaper', lang_code=CURRENT_LANGUAGE) }}" role="button" class="btn btn-primary btn-min-size">
-              {{ gettext("Read the Whitepaper") }}
-            </a>
-        </div>
-      </div>
-       <div class="row">
+            <p>
+              {{ gettext("Q82 Capital uses a combination of artificial intelligence paired with fundamental knowledge, to provide our investors with exceptional returns trough the active management of digital assets portfolios. We invest with a long-term approach, risk mitigation perspective.") }}
+            </p>
+          </div>
           <div class="col-12 col-md-6">
           </div>
         </div>
       </div>
-       <div class="container-fluid">
+    </section>
+    <section class="platform-section">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-pane background-panes top-panes">
             <div class="row row-pane">
@@ -57,13 +53,38 @@
           </div>
           <div class="container foreground-content">
             <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="img-graphic">
+                  <img src="/static/img/platform-graphic.png"
+                    srcset="/static/img/platform-graphic@2x.png 2x,
+                    /static/img/platform-graphic@3x.png 3x"
+                    class="platform-graphic"
+                    role="presentation" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <h2>
+                  {{ gettext("The Origin platform") }}
+                </h2>
+                <p>
+                  {{ gettext("We empower developers and businesses to build decentralized marketplaces on the blockchain. Our protocol makes it easy to create and manage listings for the fractional usage of assets and services. Buyers and sellers can discover each other, browse listings, make bookings, leave ratings and reviews, and much more.") }}
+                </p>
+                <div class="btn-container">
+                  <a href="{{ url_for('product_brief', lang_code=CURRENT_LANGUAGE) }}" role="button" class="product-brief-btn btn btn-primary btn-min-size">
+                    {{ gettext("Read Our Product Brief") }}
+                  </a>
+                </div>
+                <div class="btn-container">
+                  <a href="{{ universal.TELEGRAM_URL }}" role="button" class="telegram-btn btn btn-outline-primary btn-min-size" target="_blank">
+                    <i class='fab fa-telegram-plane'></i>
+                    {{ gettext("Join Our Telegram") }}
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="platform-section">
-     
     </section>
   </div>
   <section class="partners-section">
