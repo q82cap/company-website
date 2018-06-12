@@ -670,12 +670,12 @@ footer .company-mission {
 /* Index Page */
 
 .hero-section {
-  margin-top: -160px;
+  margin-top: -320px;
   z-index: 2;
 }
 
 .hero-section .foreground-content {
-  top: 720px;
+  top: 160px;
 }
 
 .hero-section h1 {
