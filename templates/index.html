@@ -21,10 +21,20 @@
             <h1>
               {{ gettext("AN INVESTMENT FIRM FOR THE SECOND MACHINE AGE") }}
             </h1>
-            <p>
-              {{ gettext("Q82 Capital is a quantitative investment firm focused on blockchain-based digital assets.") }}
-            </p>
-          </div>
+             <p>
+                  {{ gettext("Q82 Capital uses a combination of artificial intelligence paired with fundamental knowledge, to provide our investors with exceptional returns trough the active management of digital assets portfolios. We invest with a long-term approach, risk mitigation perspective.") }}
+                </p>
+                <div class="btn-container">
+                  <a href="{{ url_for('product_brief', lang_code=CURRENT_LANGUAGE) }}" role="button" class="product-brief-btn btn btn-primary btn-min-size">
+                    {{ gettext("Read Our Prospectus") }}
+                  </a>
+                </div>
+                <div class="btn-container">
+                  <a href="{{ universal.TELEGRAM_URL }}" role="button" class="telegram-btn btn btn-outline-primary btn-min-size" target="_blank">
+                    <i class='fab fa-telegram-plane'></i>
+                    {{ gettext("Join Our Telegram") }}
+                  </a>
+                          </div>
         </div>
       </div>
        <div class="container-fluid">
@@ -62,20 +72,7 @@
                 <h2>
                   {{ gettext("The Origin platform") }}
                 </h2>
-                <p>
-                  {{ gettext("Q82 Capital uses a combination of artificial intelligence paired with fundamental knowledge, to provide our investors with exceptional returns trough the active management of digital assets portfolios. We invest with a long-term approach, risk mitigation perspective.") }}
-                </p>
-                <div class="btn-container">
-                  <a href="{{ url_for('product_brief', lang_code=CURRENT_LANGUAGE) }}" role="button" class="product-brief-btn btn btn-primary btn-min-size">
-                    {{ gettext("Read Our Prospectus") }}
-                  </a>
-                </div>
-                <div class="btn-container">
-                  <a href="{{ universal.TELEGRAM_URL }}" role="button" class="telegram-btn btn btn-outline-primary btn-min-size" target="_blank">
-                    <i class='fab fa-telegram-plane'></i>
-                    {{ gettext("Join Our Telegram") }}
-                  </a>
-                </div>
+               
               </div>
             </div>
           </div>
