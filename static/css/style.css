@@ -965,13 +965,13 @@ footer .company-mission {
 }
 
 .technology-section .background-panes {
-  border-bottom: 2px solid #f7f9fb;
+  border-bottom: 2px solid #fff;
   bottom: 0px;
 }
 
 .technology-section .left-lower-pane,
 .technology-section .right-lower-pane {
-  background-color: #f7f9fb;
+  background-color: #fff;
 }
 
 .roadmap-section {
