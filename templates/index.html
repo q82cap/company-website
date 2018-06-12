@@ -28,17 +28,11 @@
       </div>
        <div class="row">
           <div class="col-12 col-md-6">
-                          <div class="btn-container">
-                  <a href="{{ url_for('product_brief', lang_code=CURRENT_LANGUAGE) }}" role="button" class="product-brief-btn btn btn-primary btn-min-size">
-                    {{ gettext("Read Our Product Brief") }}
-                  </a>
-                </div>
-                <div class="btn-container">
-                  <a href="{{ universal.TELEGRAM_URL }}" role="button" class="telegram-btn btn btn-outline-primary btn-min-size" target="_blank">
-                    <i class='fab fa-telegram-plane'></i>
-                    {{ gettext("Join Our Telegram") }}
-                  </a>
-                </div>
+                    <div class="btn-container">
+            <a href="{{ url_for('whitepaper', lang_code=CURRENT_LANGUAGE) }}" role="button" class="btn btn-primary btn-min-size">
+              {{ gettext("Read the Whitepaper") }}
+            </a>
+          </div>
         </div>
       </div>
        <div class="container-fluid">
