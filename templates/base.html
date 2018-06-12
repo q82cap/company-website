@@ -10,8 +10,8 @@
     <meta property="og:url" content="https://www.originprotocol.com"/>
     <meta property="og:image" content="https://www.originprotocol.com/static/img/fb-og-img.png"/>
     <meta property="og:locale" content="{{ CURRENT_LANGUAGE }}"/>
-    <meta property="og:title" content="{{ gettext("Origin Protocol") }}"/>
-    <meta property="og:description" content="{{ gettext("Origin Protocol enables the sharing economy on the blockchain") }}"/>
+    <meta property="og:title" content="{{ gettext("Q82 capital") }}"/>
+    <meta property="og:description" content="{{ gettext("We are a technology-driven investment firm focused on delivering superior risk-adjusted returns using the latest advancements on artificial intelligence") }}"/>
 
     {% for language in AVAILABLE_LANGUAGES.items() %}
       <link rel="alternate" hreflang="{{ language[0] }}" href='{{ universal.BASE_URL }}/{{"%s"% language[0] }}' />
@@ -19,7 +19,6 @@
 
     {% block styles %}
       {# The biggest delay to rendering the site is the google fonts, so we make sure it is the first to start loading #}
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,500%7CPoppins:200,300,400,500"/>
       <link rel="stylesheet" href="/static/css/all_styles.css"/>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" media="all"/>
 
