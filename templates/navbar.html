@@ -68,25 +68,10 @@
           <a class="nav-link" href="{{ url_for('presale', lang_code=CURRENT_LANGUAGE) }}">{{ gettext("Pre-Sale") }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('product_brief', lang_code=CURRENT_LANGUAGE) }}" target="_blank">{{ gettext("White Paper") }}</a>
+          <a class="nav-link" href="https://drive.google.com/file/d/1bDVeQDNS_glvMzsGuxnND0bzzRLiB0B6/view?usp=sharing" target="_blank">{{ gettext("White Paper") }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('team', lang_code=CURRENT_LANGUAGE) }}">{{ gettext("Team") }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://medium.com/originprotocol" target="_blank">{{ gettext("Blog") }}</a>
-        </li>
-        <li class="d-none d-lg-block nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ AVAILABLE_LANGUAGES[CURRENT_LANGUAGE] }}</a>
-          <div class="dropdown-menu language">
-            {% for language in AVAILABLE_LANGUAGES.items() %}
-              {% if CURRENT_LANGUAGE == language[0] %}
-              <div class="dropdown-item-selected">{{ language[1] }}</div>
-              {% else %}
-              <a class="dropdown-item" href="{{ url_for(request.url_rule.endpoint if request.url_rule else 'index', lang_code=language[0]) }}">{{ language[1] }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
+          <a class="nav-link" href="https://medium.com/q82cap" target="_blank">{{ gettext("Blog") }}</a>
         </li>
       </ul>
     </div>
